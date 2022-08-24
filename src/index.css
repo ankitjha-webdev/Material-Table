@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: white;
+  background: #ff3333;
+}
+::-moz-selection {
+  color: white;
+  background: #ff3333;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.3rem;
+  border-radius: 20rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f44336;
+}
+
+.css-y8ay40-MuiTableCell-root {
+  border-bottom: 2px solid #e0e0e0 !important;
+  font-size: 1rem !important;
+  color: #dc2026 !important;
+  font-weight: 700 !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.css-10zjdli-MuiTableCell-root {
+  border-bottom: 2px solid #e0e0e0 !important;
+  font-size: 1rem !important;
+  color: #dc2026 !important;
+  font-weight: 700 !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.css-wk9895-MuiT  oolbar-root {
+  color: #3e3640 !important;
+  background: #f3f3f3 !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: #9ca5ad !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked:hover {
+  color: #6f7174 !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #6f7174 !important;
+}
